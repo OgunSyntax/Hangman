@@ -1,16 +1,41 @@
+Description
 Hangman is an interactive word-guessing Android game where players try to reveal a hidden word by guessing letters one at a time. 
 Users enter a username to track their scores. The app includes a leaderboard, a word list, and the ability to share the leaderboard via SMS.
 
+-----------------------------------------------------
 Features
-Username-based player tracking
+-Username-based player tracking
 
-Word guessing gameplay
+-Word guessing gameplay
 
-Leaderboard displaying top scores
+-Leaderboard displaying top scores
 
-Words list viewer
+-Words list viewer
 
-SMS sharing of leaderboard results
+-SMS sharing of leaderboard results
 
-Input validation and user feedback
+-Input validation and user feedback
+
+-----------------------------------------------------
+Technologies Used
+
+-Java
+
+-Android Studio
+
+-Android SDK
+
+-XML (UI layouts)
+
+
+-----------------------------------------------------
+Future Improvements
+
+-Difficulty levels
+
+-Online leaderboard
+
+-Animations for Hangman drawing
+
+-Dark mode UI
 
