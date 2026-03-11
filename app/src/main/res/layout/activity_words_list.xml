@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#78B9B5">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvAddWordsTitle"
+        android:text="Add Words"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Instruction -->
+    <TextView
+        android:text="Enter words separated by commas:"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Text Input -->
+    <EditText
+        android:id="@+id/editWords"
+        android:hint="e.g. apple, banana, orange"
+        android:minLines="8"
+        android:gravity="top"
+        android:backgroundTint="#065084"
+        android:textColor="#000000"
+        android:textColorHint="#444444"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Clear Button -->
+    <Button
+        android:id="@+id/btnClearWords"
+        android:text="Clear"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#320A6B"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSaveWords"
+        android:text="Save to List"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#0F828C"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Show List Button -->
+    <Button
+        android:id="@+id/btnShowList"
+        android:text="Show List"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#065084"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Clear List Button -->
+    <Button
+        android:id="@+id/btnClearList"
+        android:text="Clear List"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF0000"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Scrollable ListView -->
+    <ListView
+        android:id="@+id/lvWords"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBackWords"
+        android:text="Back to Home"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+</LinearLayout>
